@@ -58,7 +58,7 @@ function App() {
   };
 
   return (
-    <div className="h-[80vh] w-[500px] bg-[#e4e4e4] rounded overflow-auto">
+    <div className="h-[80vh] w-full md:w-[500px] bg-[#e4e4e4] rounded overflow-auto">
       <div className="flex flex-col items-center p-4 font-playfair">
         <h1 className="text-[#3a6b7e] text-4xl font-bold">Task List</h1>
 
